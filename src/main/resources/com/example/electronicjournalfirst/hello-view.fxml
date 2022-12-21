@@ -23,7 +23,7 @@
                   </Label>
                </children>
             </AnchorPane>
-            <PasswordField alignment="CENTER" layoutX="101.0" layoutY="364.0" prefHeight="84.0" prefWidth="1039.0" promptText="Введите id">
+            <PasswordField id="idField" alignment="CENTER" layoutX="101.0" layoutY="364.0" prefHeight="84.0" prefWidth="1039.0" promptText="Введите id">
                <font>
                   <Font name="JetBrains Mono Medium" size="31.0" />
                </font>
