@@ -3,14 +3,17 @@ package com.example.electronicjournalfirst;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
+import javafx.scene.control.TextField;
 
 public class HelloController {
     @FXML
     private Label welcomeText;
 
     @FXML
-    private PasswordField idField;
+    private TextField TextName;
 
+    @FXML
+    private TextField TextID;
     @FXML
     protected void loginMessage() {
         checkId();
@@ -20,6 +23,10 @@ public class HelloController {
 
     @FXML
     protected void checkId() {
-        //Проверка айди на валидность и прочее, возврат результата
+        if (TextID.getText().equals("1")) {
+
+        }
     }
+
+
 }

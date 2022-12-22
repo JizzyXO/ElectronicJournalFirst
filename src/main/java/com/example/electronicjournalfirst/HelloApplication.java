@@ -3,6 +3,7 @@ package com.example.electronicjournalfirst;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.stage.Stage;
 
 
@@ -15,6 +16,8 @@ public class HelloApplication extends Application {
         Scene scene = new Scene(fxmlLoader.load(), 1400, 720);
         stage.setScene(scene);
         stage.show();
+
+
     }
 
     public static void main(String[] args) {
