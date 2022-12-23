@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.control.TableColumn?>
-<?import javafx.scene.control.TableView?>
-<?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.VBox?>
-<?import javafx.scene.text.Font?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<VBox alignment="CENTER" prefHeight="865.0" prefWidth="1352.0" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.electronicjournalfirst.JournalController">
+<VBox alignment="CENTER" prefHeight="865.0" prefWidth="1352.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.electronicjournalfirst.JournalController">
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
@@ -22,7 +19,7 @@
                                 <Font size="28.0" />
                             </font>
                         </Label>
-                  <Label layoutX="530.0" layoutY="26.0" prefHeight="42.0" prefWidth="504.0" text="Здравствуйте, Виталий Андреевич" textFill="WHITE">
+                  <Label fx:id="helloLable" layoutX="530.0" layoutY="26.0" prefHeight="42.0" prefWidth="504.0" text="" textFill="WHITE" >
                      <font>
                         <Font size="28.0" />
                      </font>

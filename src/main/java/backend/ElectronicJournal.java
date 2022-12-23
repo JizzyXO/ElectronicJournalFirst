@@ -1,4 +1,4 @@
-package Backend;
+package backend;
 
 public class ElectronicJournal {
     String[] disciplines = new String[] {"ПрДизИнфСистем","ИТехнологии","ИсредРазПр","ОпСистСреды","ТеРазрПрогО"};
